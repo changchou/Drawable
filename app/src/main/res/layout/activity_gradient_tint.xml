@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gradient_tint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zhang.drawable.colordrawable.GradientTintActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--android:backgroundTint="@color/colorstatelist" 无效-->
+            <RadioButton
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="linear"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/radial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="radial"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/sweep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorstatelist"
+                android:backgroundTintMode="add"
+                android:text="sweep"
+                android:textColor="#000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/grdient"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="36dp"
+            android:background="#ff00ff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorstatelist2"
+            android:text="test"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorstatelist2"
+            android:text="test"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgp1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/tint1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="add"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/tint2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="screen"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/tint3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="src_over"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/tint4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="src_in"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/tint5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="multiply"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/tint6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorstatelist"
+                android:text="src_atop"
+                android:textColor="#000" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/example"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ball2" />
+
+    </LinearLayout>
+</LinearLayout>

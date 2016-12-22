@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <drawable name="colordrawabler">#ff0000</drawable>
+    <drawable name="colordrawableg">#00ff00</drawable>
+    <drawable name="colordrawableb">#0000ff</drawable>
+    <drawable name="colordrawablea">#22000000</drawable>
+    <drawable name="l1">#0000ff</drawable>
+    <drawable name="l2">#ff0000</drawable>
+    <drawable name="l3">#00ffff</drawable>
+    <drawable name="l4">#ffff00</drawable>
+    <drawable name="l5">#00ff00</drawable>
+    <drawable name="l6">#ff00ff</drawable>
+
+
+</resources>
